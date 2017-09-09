@@ -46,7 +46,7 @@ import { FormsModule } from '@angular/forms';
     FormsModule 
   ],
   providers: [DishService,
-    PromotionService,
+    PromotionService,ProcessHTTPMsgService,
     LeaderService],
   bootstrap: [AppComponent]
 })
